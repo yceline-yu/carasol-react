@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 
 /** App
  *
- * App -> Carousel -> Card
+ * App -> Carousel 
  */
 function App() {
   return (

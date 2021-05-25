@@ -10,7 +10,7 @@ import "./Card.css";
  * - totalNum 
  *
  *
- * App -> Carousel -> Card
+ * Carousel -> Card
  */
 function Card(props) {
   return (

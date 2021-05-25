@@ -91,7 +91,11 @@ it("should render without crashing", function () {
 });
 
 it("should match snapshot", function () {
-  const { container } = render(<Carousel cardData={[{src: "./image1.jpg", caption: "TestCaption"}]} title="TestTitle"/>)
+  const { container } = render(
+  <Carousel 
+    cardData={[{src: "./image1.jpg", caption: "TestCaption"}]} 
+    title="TestTitle"/>
+  )
 
   expect(container).toMatchSnapshot();
 })
