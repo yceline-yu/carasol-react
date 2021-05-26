@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import heads from "./heads.jpg"
 import tails from "./tails.jpg"
 /** Coin
@@ -15,7 +15,7 @@ const { face } = props;
 
 return (
   <div>
-    <img src={face === "heads"? heads : tails}/>
+    <img src={face === "heads"? heads : tails} alt={face}/>
   </div>
 )
 }
