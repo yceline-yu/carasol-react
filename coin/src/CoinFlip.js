@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import Coin from "./Coin"
-import heads from "./heads.jpg"
-import tails from "./tails.jpg"
 
 /** CoinFlip
  *
